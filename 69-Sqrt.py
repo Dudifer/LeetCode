@@ -1,3 +1,5 @@
+print("Date started: 5/15/23")
+print("Date completed: 5/15/23")
 def mySqrt(x):
     for i in range(1, x+1):
         if i*i==x:
