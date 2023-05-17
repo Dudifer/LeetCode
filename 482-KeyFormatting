@@ -1,0 +1,18 @@
+print("Date started: 5/16/23")
+print("Date completed: 5/16/23")
+class Solution(object):
+    def licenseKeyFormatting(self, s, k):
+        """
+        :type s: str
+        :type k: int
+        :rtype: str
+        """
+        ns=""
+        for c in s:
+            if c != "-":
+                ns+=c.upper()
+        l=len(ns)
+        r=l%k
+        for i in range(l-k,0,-k):
+            ns=ns[:i]+"-"+ns[i:]
+        return ns
