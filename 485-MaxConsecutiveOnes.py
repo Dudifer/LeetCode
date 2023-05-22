@@ -1,3 +1,5 @@
+print("Date started: 5/18/23")
+print("Date completed: 5/18/23")
 def findMaxConsecutiveOnes(self, nums):
     """
     :type nums: List[int]

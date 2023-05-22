@@ -12,7 +12,6 @@ class Solution(object):
             if c != "-":
                 ns+=c.upper()
         l=len(ns)
-        r=l%k
         for i in range(l-k,0,-k):
             ns=ns[:i]+"-"+ns[i:]
         return ns

@@ -4,7 +4,7 @@ def mySqrt(x):
     for i in range(1, x+1):
         if i*i==x:
             return i
-print(mySqrt(100))
+
 
 def betterSqrt(x):
     left,right=1,x
@@ -17,4 +17,3 @@ def betterSqrt(x):
         else:
             left=mid+1
     return right
-print(betterSqrt(100))
